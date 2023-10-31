@@ -35,5 +35,10 @@ module.exports = {
     ],
     module: { 
       rules: [ jsRules, cssRules ] 
+    },
+    devServer: {
+      open: true,
+      port: 3000,
+      compress: true,
     }
 }
