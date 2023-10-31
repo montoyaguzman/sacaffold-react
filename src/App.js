@@ -7,7 +7,7 @@ function App() {
 
     const updateCount = () => {
         setCount(count + 1);
-        setNumbers(numbers.push(count));
+        setNumbers(numbers.concat(count));
     };
 
     return (
