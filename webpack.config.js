@@ -40,5 +40,6 @@ module.exports = {
       open: true,
       port: 3000,
       compress: true,
-    }
+    },
+    devtool: 'source-map'
 }
