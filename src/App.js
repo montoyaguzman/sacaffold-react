@@ -1,6 +1,8 @@
 function App() {
     return (
-        <h1>app works!</h1>
+        <div class="container">
+            <h1>app works!</h1>
+        </div>
     )
 }
 
